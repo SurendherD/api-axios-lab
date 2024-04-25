@@ -1,0 +1,25 @@
+#outer {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-column-gap: 1em;
+}
+
+.article {
+  position: relative;
+  border-radius: 5px;
+  margin-top: 20%;
+  margin-left:5% ;
+  padding: 5%;
+  text-align: left;
+  width: 50%;
+}
+
+.article img{
+  width: 250px;
+  height:250px;
+}
+
+.article>.strength {
+  font-size: 20px;
+  font-weight: bold; 
+}
